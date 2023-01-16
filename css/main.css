@@ -1,0 +1,75 @@
+body{
+	background-color: #21252b;
+}
+::selection{
+	background-color: rgba(0, 100, 255, 0.2);
+}
+.nav{
+	text-align: center;
+	padding: 15px;
+	background-color: #282c35;
+	margin: -8px;
+}
+.nav a:link{
+	background-color: #282c35;
+	color: #FFF;
+	text-decoration: none;
+	padding: 15px;
+	margin: -3px;
+	transition: 0.5s;
+}
+.nav a:visited{
+	background-color: #282c35;
+	color: #FFF;
+	text-decoration: none;
+	padding: 15px;
+	margin: -3px;
+	transition: 0.5s;
+}
+.nav a:hover{
+	background-color: #21252b;
+	color: #FFF;
+	text-decoration: none;
+	padding: 15px;
+	margin: -3px;
+	transition: 0.5s;
+}
+.info{
+	border: #56b6c2 2px solid;
+	border-radius: 10px;
+	padding: 50px;
+	margin: 15px;
+}
+.centre{
+	text-align: center;
+}
+.div-r{
+	display:inline-block;
+	position:relative;
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	border-radius:50%;
+}
+.alert{
+	position: relative;
+	top: 15px;
+	margin: -15px;
+	padding: 0.01px;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+.as:link{
+	color: #56b6c2;
+	text-decoration: none;
+}
+.as:visited{
+	color: #56b6c2;
+	text-decoration: none;
+}
+.as:hover{
+	color: #56b6c2;
+	text-decoration: underline;
+}
+#ms{
+	display: none;
+}
